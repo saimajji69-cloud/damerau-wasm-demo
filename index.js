@@ -3,7 +3,7 @@ import init, { distance } from "./pkg/pylev.js";
 async function start() {
     await init();
 
-    window.cal = function () {
+    window.calc = function () {
         const a = document.getElementById("a").value;
         const b = document.getElementById("b").value;
 
