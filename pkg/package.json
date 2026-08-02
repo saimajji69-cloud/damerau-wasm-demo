@@ -1,0 +1,17 @@
+{
+  "name": "pylev",
+  "type": "module",
+  "description": "A Rust port of pylev - pure Levenshtein and Damerau-Levenshtein implementation.",
+  "version": "0.1.0",
+  "license": "BSD-3-Clause",
+  "files": [
+    "pylev_bg.wasm",
+    "pylev.js",
+    "pylev.d.ts"
+  ],
+  "main": "pylev.js",
+  "types": "pylev.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
